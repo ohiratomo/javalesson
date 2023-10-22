@@ -107,11 +107,12 @@ public class Qes1_13 {
     System.out.println(doubleVar/ shortVar);
     // -90
     System.out.println(byteVar- shortVar);
+    
     //5.，次のプログラムを実行すると「ハローJAVA2023」という結果が表示されます。
     String num="4";	
     int num1=3;	
-    
     System.out.println("ハローJAVA"+(num+num1));
+    
   //6.『』で囲われた人の情報を変数にして、formatの通りコンソールに出力してください
     String name = "山田太郎";
     int age = 18;
