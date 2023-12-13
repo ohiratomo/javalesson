@@ -64,8 +64,8 @@ class Qes7 {
 	}
 
 	// 教科名を取得する関数
-	public static String getSubjectName(int subjectIndex) {
-		String[] subjects = { "英語", "数学", "理科", "社会" };
+	public static String getSubjectName (int subjectIndex) {
+		String []  subjects = { "英語", "数学", "理科", "社会" };
 		return subjects[subjectIndex];
 	}
 }

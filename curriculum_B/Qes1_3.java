@@ -26,7 +26,7 @@ public class Qes1_3 {
 
 		int tryCount = 0;
 		Random rand = new Random();
-		String[] janken = { "グー", "チョキ", "パー" };
+		String [] janken = { "グー", "チョキ", "パー"  };
 
 		while (true) {
 			int user;
@@ -57,7 +57,7 @@ public class Qes1_3 {
 				System.out.println("DRAW あいこ もう一回しましょう！");
 				continue; // 引き分けの場合、もう一度じゃんけんをします
 			} else {
-				String result = (user == 0 && pc == 2) ? "俺の勝ち！なんで負けたか、明日まで考えといてください。そしたら何かが見えてくるはずです"
+				String  result = (user == 0 && pc == 2) ? "俺の勝ち！なんで負けたか、明日まで考えといてください。そしたら何かが見えてくるはずです"
 						: (user == 1 && pc == 0) ? "俺の勝ち！負けは次につながるチャンスです！ネバーギブアップ！"
 								: "俺の勝ち！たかがじゃんけん、そう思ってないですか？それやったら次も、俺が勝ちますよ";
 				System.out.println(result);
